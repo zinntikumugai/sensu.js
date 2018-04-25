@@ -1,9 +1,7 @@
 # Sensu.js
 
 [![Dependency Status](https://beta.gemnasium.com/badges/github.com/zinntikumugai/sensu.js.svg)](https://beta.gemnasium.com/projects/github.com/zinntikumugai/sensu.js)
-
 [![license](https://img.shields.io/github/license/zinntikumugai/sensu.js.svg)](https://github.com/zinntikumugai/sensu.js)
-
 [![GitHub top language](https://img.shields.io/github/languages/top/zinntikumugai/sensu.js.svg)](https://github.com/zinntikumugai/sensu.js)
 
 
