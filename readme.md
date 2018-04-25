@@ -11,7 +11,9 @@
 
 ## Install
 
-comming soon...
+```
+npm install sensu.js
+```
 
 ## use
 
