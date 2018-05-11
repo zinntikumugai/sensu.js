@@ -5,7 +5,7 @@ class Client {
         if(apikey == null)
             throw new Error("API_NOT_FOUND");
         this.apikey = apikey;
-        this.APIURL = "https://sensu.tips/api/" + type;
+        this.APIURL = "https://sensu.tips/api/v1/" + type;
         
     }
 
