@@ -27,8 +27,8 @@ class Client {
                 "Content-type": "application/x-www-form-urlencoded"
             },
             form: {
-                "api_key": this.apikey,
-                "social_account": social_account
+                "api_key": encodeURIComponent(this.apikey),
+                "social_account": encodeURIComponent(social_account)
             }
         }
         request.post(options, call);
