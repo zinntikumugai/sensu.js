@@ -17,6 +17,12 @@ class Client {
         return commandRequest;
     }
 
+    ssplit(str) {
+        var st = str.replace(/[\s　\n]+/g, '');
+        st = st.split(' ').filter(v => v);
+        return st;
+    }
+
     post(command = [""], social_account = null, call) {
         if(social_account == null)
             throw new Error("SOCIAL_ACCOUNT_NOT_FOUND");
