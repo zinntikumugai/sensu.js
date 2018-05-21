@@ -37,11 +37,11 @@ sc.post(sc.ssplit("balance znyt"), "z", (err, res, body) => {
 ```
 ```json
 {
-  status: 'SUCCESS',
-  currency_name: 'BitZeny',
-  balance: '0.00000000',
-  currency_code: 'ZNY',
-  message: 'あなたの BitZeny の残高は 0.00000000 ZNY です。'
+  "status": "SUCCESS",
+  "currency_name": "BitZeny",
+  "balance": "0.00000000",
+  "currency_code": "ZNY",
+  "message": "あなたの BitZeny の残高は 0.00000000 ZNY です。"
 }
 ```
 
