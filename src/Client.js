@@ -18,7 +18,7 @@ class Client {
     }
 
     ssplit(str) {
-        var st = str.replace(/[\s　\n]+/g, '');
+        var st = str.replace(/[\s　\n]+/g, ' ');
         st = st.split(' ').filter(v => v);
         return st;
     }
